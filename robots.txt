@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kamata-music-studio.github.io/sitemap.xml

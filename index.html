@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蒲田ミュージックスタジオ｜京急蒲田駅徒歩1分の防音レンタルスタジオ・音楽教室向け</title>
+<meta name="description" content="京急蒲田駅から徒歩1分、大田区南蒲田の防音レンタルスタジオ。アップライトピアノ完備で1時間2,200円（税込）。ピアノ・ギター・ボーカルなど音楽レッスンや習い事の教室会場として定期利用できます。">
+<link rel="canonical" href="https://kamata-music-studio.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="蒲田ミュージックスタジオ｜京急蒲田駅徒歩1分の防音レンタルスタジオ">
+<meta property="og:description" content="アップライトピアノ完備の防音スタジオ。音楽レッスンの会場に。1時間2,200円（税込）。">
+<meta property="og:url" content="https://kamata-music-studio.github.io/">
+<meta property="og:locale" content="ja_JP">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
+
+<!-- 検索エンジン向けの店舗情報（Googleビジネスプロフィールと表記をそろえてください） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "蒲田ミュージックスタジオ",
+  "description": "京急蒲田駅徒歩1分の防音レンタルスタジオ。アップライトピアノ完備。音楽レッスン・習い事の会場として定期利用できます。",
+  "url": "https://kamata-music-studio.github.io/",
+  "email": "info@example.com",
+  "priceRange": "1時間2,200円（税込）",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "JP",
+    "addressRegion": "東京都",
+    "addressLocality": "大田区",
+    "streetAddress": "南蒲田1-1-23 夫婦橋ビル4F"
+  },
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "防音", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "アップライトピアノ", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "駐車場", "value": false},
+    {"@type": "LocationFeatureSpecification", "name": "駐輪場", "value": false}
+  ]
+}
+</script>
+
+<style>
+:root{
+  --ink:#1d1b2e;
+  --ink-soft:#4a4760;
+  --paper:#faf7f2;
+  --card:#ffffff;
+  --line:#e6e0d6;
+  --accent:#c8553d;
+  --accent-dark:#a8432e;
+  --deep:#22223b;
+  --gold:#e9c46a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Noto Sans JP",system-ui,sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.85;
+  font-size:16px;
+}
+a{color:var(--accent-dark)}
+img{max-width:100%;display:block}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* header */
+.site-header{
+  position:sticky;top:0;z-index:10;
+  background:rgba(250,247,242,.92);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:"Zen Kaku Gothic New",sans-serif;font-weight:900;font-size:1.05rem;color:var(--ink);text-decoration:none;letter-spacing:.02em}
+.logo span{color:var(--accent)}
+.nav-cta{
+  background:var(--accent);color:#fff;text-decoration:none;
+  padding:8px 16px;border-radius:999px;font-size:.88rem;font-weight:700;white-space:nowrap
+}
+.nav-cta:hover{background:var(--accent-dark)}
+
+/* hero */
+.hero{
+  background:var(--deep);color:#fff;
+  position:relative;overflow:hidden;
+  padding:72px 0 64px;
+}
+.keys{
+  position:absolute;left:0;right:0;bottom:0;height:56px;opacity:.14;
+  background:
+    repeating-linear-gradient(90deg,transparent 0 22px,#fff 22px 24px),
+    linear-gradient(#fff,#fff);
+  background-size:auto, 100% 2px;
+  background-repeat:repeat, no-repeat;
+  background-position:0 0, 0 0;
+}
+.keys::after{
+  content:"";position:absolute;inset:0 0 22px 0;
+  background:repeating-linear-gradient(90deg,
+    transparent 0 15px,#fff 15px 29px,transparent 29px 39px,#fff 39px 53px,transparent 53px 72px,
+    #fff 72px 86px,transparent 86px 96px,#fff 96px 110px,transparent 110px 120px,#fff 120px 134px,transparent 134px 168px);
+}
+.eyebrow{
+  display:inline-block;font-size:.85rem;font-weight:700;letter-spacing:.08em;
+  color:var(--gold);margin-bottom:14px
+}
+.hero h1{
+  font-family:"Zen Kaku Gothic New",sans-serif;font-weight:900;
+  font-size:clamp(1.9rem,6vw,3rem);line-height:1.3;margin-bottom:18px
+}
+.hero p.lead{font-size:1.02rem;color:#dcdbe8;max-width:34em;margin-bottom:28px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+.badge{
+  border:1px solid rgba(255,255,255,.28);border-radius:999px;
+  padding:6px 14px;font-size:.88rem;font-weight:500
+}
+.btn{
+  display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+  padding:14px 28px;border-radius:999px;font-weight:700
+}
+.btn:hover{background:var(--accent-dark)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.5);margin-left:8px}
+.btn.ghost:hover{background:rgba(255,255,255,.08)}
+
+/* sections */
+section{padding:64px 0}
+section + section{border-top:1px solid var(--line)}
+.sec-label{font-size:.8rem;font-weight:700;letter-spacing:.12em;color:var(--accent);margin-bottom:6px}
+h2{
+  font-family:"Zen Kaku Gothic New",sans-serif;font-weight:900;
+  font-size:clamp(1.4rem,4vw,1.9rem);line-height:1.4;margin-bottom:24px
+}
+.intro{color:var(--ink-soft);margin-bottom:28px;max-width:40em}
+
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px
+}
+.card h3{font-size:1.02rem;margin-bottom:6px}
+.card p{font-size:.94rem;color:var(--ink-soft)}
+
+.equip{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.equip li{
+  list-style:none;background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:14px 16px;display:flex;align-items:center;gap:10px;font-weight:500
+}
+.equip li::before{content:"♪";color:var(--accent);font-weight:700}
+.equip li.no{color:var(--ink-soft);font-weight:400}
+.equip li.no::before{content:"―";color:#aaa}
+
+/* price */
+.price-box{
+  background:var(--deep);color:#fff;border-radius:18px;padding:32px 28px;
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px
+}
+.price-box .num{font-family:"Zen Kaku Gothic New",sans-serif;font-weight:900;font-size:clamp(2.2rem,8vw,3.2rem);line-height:1}
+.price-box .num small{font-size:1rem;font-weight:700;margin-left:4px}
+.price-box .unit{color:var(--gold);font-weight:700;font-size:.9rem;margin-bottom:6px}
+.price-notes{margin-top:18px;padding-left:1.2em;color:var(--ink-soft);font-size:.94rem}
+
+/* calendar */
+.cal{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden
+}
+.cal iframe{width:100%;height:600px;border:0;display:block}
+.cal-placeholder{padding:40px 24px;text-align:center;color:var(--ink-soft)}
+
+/* access */
+.access{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start}
+.access dl{display:grid;grid-template-columns:5.5em 1fr;gap:10px 12px}
+.access dt{font-weight:700;font-size:.92rem}
+.access dd{font-size:.95rem}
+.map{border-radius:14px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:#eee}
+.map iframe{width:100%;height:100%;border:0}
+
+/* faq */
+details{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 20px;margin-bottom:10px
+}
+summary{cursor:pointer;font-weight:700;list-style:none;position:relative;padding-right:24px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:0;color:var(--accent);font-size:1.2rem;line-height:1.6}
+details[open] summary::after{content:"−"}
+details p{margin-top:10px;color:var(--ink-soft);font-size:.95rem}
+
+/* contact */
+.contact{background:var(--deep);color:#fff;text-align:center}
+.contact h2{color:#fff}
+.contact .intro{color:#dcdbe8;margin:0 auto 28px}
+.mail{font-size:1.1rem;font-weight:700;color:var(--gold);word-break:break-all}
+.contact .hint{font-size:.88rem;color:#b9b8c9;margin-top:18px}
+
+footer{padding:28px 0;text-align:center;font-size:.82rem;color:var(--ink-soft)}
+
+@media (max-width:520px){
+  .btn.ghost{margin-left:0;margin-top:10px}
+  .hero{padding:56px 0 72px}
+  .nav-cta{padding:7px 12px;font-size:.8rem}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#">蒲田<span>ミュージック</span>スタジオ</a>
+    <a class="nav-cta" href="#contact">お問い合わせ</a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" aria-label="スタジオ紹介">
+  <div class="wrap">
+    <span class="eyebrow">京急蒲田駅 徒歩1分</span>
+    <h1>音楽レッスンの会場に、<br>駅前の防音スタジオ。</h1>
+    <p class="lead">大田区南蒲田の「蒲田ミュージックスタジオ」は、アップライトピアノを備えた防音レンタルスタジオです。ピアノ・ギター・ボーカルなど、音楽教室や個人レッスンの会場として定期的にご利用いただけます。</p>
+    <div class="badges">
+      <span class="badge">防音</span>
+      <span class="badge">アップライトピアノ</span>
+      <span class="badge">約10畳</span>
+      <span class="badge">1時間 2,200円（税込）</span>
+    </div>
+    <a class="btn" href="#contact">空き状況を問い合わせる</a>
+    <a class="btn ghost" href="#price">料金を見る</a>
+  </div>
+  <div class="keys" aria-hidden="true"></div>
+</section>
+
+<section id="use">
+  <div class="wrap">
+    <p class="sec-label">USE</p>
+    <h2>こんなレッスンにご利用いただけます</h2>
+    <p class="intro">防音の個室なので、音を気にせずレッスンに集中できます。毎週同じ曜日・時間の定期利用にも対応しています。</p>
+    <div class="grid">
+      <div class="card">
+        <h3>ピアノ教室</h3>
+        <p>アップライトピアノを備えているので、本物のピアノのタッチでそのままレッスンを始められます。</p>
+      </div>
+      <div class="card">
+        <h3>ギター教室</h3>
+        <p>ギタースタンドと椅子を用意しています。ギターをお持ち込みいただければ、すぐにレッスンを始められます。</p>
+      </div>
+      <div class="card">
+        <h3>ボーカル・歌のレッスン</h3>
+        <p>防音なので、声を出す練習やボイストレーニングにも使いやすい環境です。</p>
+      </div>
+      <div class="card">
+        <h3>出張レッスンの会場に</h3>
+        <p>自宅や教室を持たない講師の方が、生徒さんと待ち合わせる会場としても便利です。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="equipment">
+  <div class="wrap">
+    <p class="sec-label">EQUIPMENT</p>
+    <h2>広さ・設備</h2>
+    <p class="intro">広さは約10畳。マンツーマンのレッスンから、少人数のグループレッスンまで対応できる広さです。</p>
+    <ul class="equip">
+      <li>防音</li>
+      <li>アップライトピアノ</li>
+      <li>ギタースタンド</li>
+      <li>椅子</li>
+      <li class="no">駐車場なし</li>
+      <li class="no">駐輪場なし（近くに駐輪場あり）</li>
+    </ul>
+  </div>
+</section>
+
+<section id="price">
+  <div class="wrap">
+    <p class="sec-label">PRICE</p>
+    <h2>料金</h2>
+    <div class="price-box">
+      <div>
+        <p class="unit">1時間あたり</p>
+        <p class="num">2,200<small>円（税込）</small></p>
+      </div>
+      <a class="btn" href="#contact">予約・お問い合わせ</a>
+    </div>
+    <ul class="price-notes">
+      <li>毎週・隔週など、定期でのご利用もご相談ください。</li>
+      <li>お支払い方法はお問い合わせ時にご案内します。</li>
+    </ul>
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="wrap">
+    <p class="sec-label">SCHEDULE</p>
+    <h2>空き状況</h2>
+    <div class="cal">
+      <!--
+        Googleカレンダーを公開したら、下の div を消して、
+        カレンダーの「埋め込みコード」の iframe をここに貼ってください。
+        例：<iframe src="https://calendar.google.com/calendar/embed?src=...&ctz=Asia%2FTokyo&mode=WEEK" loading="lazy" title="空き状況カレンダー"></iframe>
+      -->
+      <div class="cal-placeholder">
+        空き状況は現在準備中です。<br>ご希望の日時を<a href="#contact">メールでお問い合わせ</a>ください。
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="access">
+  <div class="wrap">
+    <p class="sec-label">ACCESS</p>
+    <h2>アクセス</h2>
+    <div class="access">
+      <dl>
+        <dt>名称</dt><dd>蒲田ミュージックスタジオ</dd>
+        <dt>住所</dt><dd>東京都大田区南蒲田1-1-23<br>夫婦橋ビル4F</dd>
+        <dt>最寄り駅</dt><dd>京急蒲田駅 徒歩1分</dd>
+        <dt>駐車場</dt><dd>なし（近隣のコインパーキングをご利用ください）</dd>
+        <dt>駐輪場</dt><dd>なし（近くに駐輪場があります）</dd>
+      </dl>
+      <div class="map">
+        <iframe
+          src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A4%A7%E7%94%B0%E5%8C%BA%E5%8D%97%E8%92%B2%E7%94%B01-1-23&z=17&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="蒲田ミュージックスタジオの地図"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="sec-label">FAQ</p>
+    <h2>よくあるご質問</h2>
+    <details>
+      <summary>定期的に同じ時間を借りられますか？</summary>
+      <p>はい、毎週同じ曜日・時間でのご利用に対応しています。ご希望の枠をメールでお知らせください。</p>
+    </details>
+    <details>
+      <summary>楽器は置いてありますか？</summary>
+      <p>アップライトピアノとギタースタンドがあります。そのほかの楽器はお持ち込みください。</p>
+    </details>
+    <details>
+      <summary>車や自転車で行けますか？</summary>
+      <p>専用の駐車場・駐輪場はありません。自転車は近くの駐輪場をご利用ください。京急蒲田駅から徒歩1分なので、電車でのご来場が便利です。</p>
+    </details>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="sec-label" style="color:var(--gold)">CONTACT</p>
+    <h2>予約・お問い合わせ</h2>
+    <p class="intro">ご希望の日時、ご利用内容（例：ピアノの個人レッスン、毎週火曜19時〜など）をメールでお知らせください。</p>
+    <a class="btn" href="mailto:info@example.com?subject=%E3%80%90%E8%92%B2%E7%94%B0%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%80%91%E5%88%A9%E7%94%A8%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%E3%81%94%E5%B8%8C%E6%9C%9B%E3%81%AE%E6%97%A5%E6%99%82%EF%BC%9A%0A%E3%81%94%E5%88%A9%E7%94%A8%E5%86%85%E5%AE%B9%EF%BC%9A%0A%E5%AE%9A%E6%9C%9F%E5%88%A9%E7%94%A8%E3%81%AE%E5%B8%8C%E6%9C%9B%EF%BC%9A%E3%81%82%E3%82%8A%20%2F%20%E3%81%AA%E3%81%97%0A">メールで問い合わせる</a>
+    <p class="hint">メールアドレス：<span class="mail">info@example.com</span></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 蒲田ミュージックスタジオ　東京都大田区南蒲田1-1-23 夫婦橋ビル4F</div>
+</footer>
+
+</body>
+</html>
